@@ -11,8 +11,13 @@ defmodule RtbBench do
     :ok
   end
 
-  bench "best-case scenario (zero latency)" do
+  bench "best-case scenario (zero latency, 1 backend)" do
     Rtb.start_bidding([RichBidder], %{user_id: "blah blah"})
+    :ok
+  end
+
+  bench "best-case scenario (zero latency, 5 backends)" do
+    Rtb.start_bidding([RichBidder, RichBidder, RichBidder, RichBidder, RichBidder], %{user_id: "blah blah"})
     :ok
   end
 

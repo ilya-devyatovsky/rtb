@@ -1,5 +1,7 @@
 # Rtb
 
+[![Build Status](https://travis-ci.org/keichan34/rtb.svg?branch=master)](https://travis-ci.org/keichan34/rtb)
+
 A quick module to help with your Real-Time Bidding needs.
 
 ## Overview

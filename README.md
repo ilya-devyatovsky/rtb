@@ -7,7 +7,7 @@ A quick module to help with your Real-Time Bidding needs.
 ## Overview
 
 `Rtb` brokers a bidding session by sending requests in parallel to multiple
-backends and chooses the cheapest offer in a specific timeout (default 50ms).
+backends and chooses the highest bid in a specific timeout (default 50ms).
 
 ## Usage
 
